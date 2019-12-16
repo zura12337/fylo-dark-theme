@@ -7,6 +7,7 @@ body{
 html{
   scroll-behavior: smooth;
 }
+
 .intro{
   display:flex;
   padding-top: 40px;
@@ -42,7 +43,9 @@ li>a:hover{
 }
 @media(max-width:768px){
   .container{
-    width: 150%;
+    width: 100%;
+    background: url("images/bg-curvy-mobile.svg") no-repeat;
+    background-position: 70% 530px;
   }
 }
 .main{
@@ -55,18 +58,22 @@ li>a:hover{
 }
 @media (max-width:768px){
   #middle{
-    width: 400px;
-    margin-left: -70px;
+    width: 300px;
+    margin-left: -7%;
   }
   .intro{
     padding-left: 10%;
   }
   #logo{
-    width: 150px;
+    width: 90px;
     height: 1%;
   }
   .intro ul{
-    padding-left: 10%;
+    padding-left: 2%;
+    font-size: 10px;
+  }
+  .intro ul li a{
+    margin-left: 20px;
   }
 }
 .upper{
@@ -103,13 +110,16 @@ li>a:hover{
     margin-left: 13%;
 
   }
-  .upper p{
+  .upper h2{
     font-size: 20px;
+  }
+  .upper p{
+    font-size: 16px;
   }
   .upper button{
     margin-top: 20px;
     margin-bottom: 20px;
-    transform: scale(1.6);
+    transform: scale(1.2);
   }
 }
 .grid{
@@ -127,7 +137,7 @@ li>a:hover{
 @media(max-width:768px){
   .grid{
     grid-template-columns: 1fr;
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
   }
   .grid p{
@@ -183,7 +193,11 @@ li>a:hover{
   .fylo-works{
     position: relative;
     top: -60px;
-    left: -19%;
+    left: -34%;
+    width: 100%;
+  }
+  .fylo-works a{
+    font-size: 17px;
   }
 }
 .arrow{
@@ -281,7 +295,7 @@ li>a:hover{
 @media(max-width:768px){
   .early-access{
     width: 70%;
-    left: -11%;
+    left: -14%;
   }
   .early-access h1{
     font-size: 20px;
@@ -293,8 +307,9 @@ li>a:hover{
     margin-bottom: 20px;
   }
   .early-access button{
-    padding: 17px 29% 17px 29%;
+    padding: 17px 17% 17px 17%;
     left: 0;
+    font-size: 15px;
   }
 }
 .footer{
@@ -375,13 +390,13 @@ li>a:hover{
     flex-direction: column;
   }
   .footer{
-    width: 121%;
+    width: auto;
   }
   .footer > #logo{
     padding-left: 5%;
   }
   .location{
-    width: 70%;
+    width: 100%;
     padding-left: 5%;
   }
   .social-links .phone{
@@ -394,13 +409,13 @@ li>a:hover{
   .about{
     margin-top: 50px;
     margin-bottom: 50px;
-    left: -17%;
+    left: -33%;
   }
   .contact{
     margin-top: 20px;
-    left: -17%;
+    left: -33%;
   }
   #social{
-    left: -40%;
+    left: -35%;
   }
 }
