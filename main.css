@@ -37,7 +37,7 @@ li>a:hover{
 }
 .container{
   text-align:center;
-  background: url("\images\bg-curvy-desktop.svg") no-repeat;
+  background: url("images/bg-curvy-desktop.svg") no-repeat;
   background-position: 50% 430px;
 }
 @media(max-width:768px){
