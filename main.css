@@ -37,7 +37,7 @@ li>a:hover{
 }
 .container{
   text-align:center;
-  background: url("/images/bg-curvy-desktop.svg") no-repeat;
+  background: url("./images/bg-curvy-desktop.svg") no-repeat;
   background-position: 50% 430px;
 }
 @media(max-width:768px){
@@ -192,7 +192,7 @@ li>a:hover{
   width: 25px;
 }
 .quotes{
-  background: url("/images/bg-quotes.png") no-repeat;
+  background: url("./images/bg-quotes.png") no-repeat;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 90%;
